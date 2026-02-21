@@ -24,6 +24,6 @@ def info():
         'nombre': 'Microservicio de Suma',
         'version': '1.0'
     })
-
+#comentario
 if __name__ == '__main__': #Ejecuta mi aplicacion cuando yo llame el script
     app.run(debug=True, host='0.0.0.0', port=8080) # Cuando ejecutes, corre el app. Host local = 0.0.0.0. Puerto donde va a ser visible mi aplicacion
